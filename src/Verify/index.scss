@@ -7,10 +7,9 @@
     top: 0;
     cursor: pointer;
     cursor: grab;
-  }
-
-  .block:active {
-    cursor: grabbing;
+    &:active {
+      cursor: grabbing;
+    }
   }
 
   .sliderContainer {
@@ -97,14 +96,12 @@
     transition: background 0.2s linear;
     cursor: pointer;
     cursor: grab;
-  }
-
-  .slider:active {
-    cursor: grabbing;
-  }
-
-  .slider:hover {
-    background: #486cd6;
+    &:active {
+      cursor: grabbing;
+    }
+    &:hover {
+      background: #486cd6;
+    }
   }
 
   .sliderIcon {

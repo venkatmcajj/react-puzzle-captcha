@@ -67,8 +67,7 @@
     "url": "git+https://github.com:venkatmcajj/react-slider-verify.git"
   },
   "dependencies": {
-    "@babel/runtime": "^7.15.4",
-    "rollup-plugin-less": "^1.1.3"
+    "@babel/runtime": "^7.15.4"
   },
   "peerDependencies": {
     "react": "^16.9.23"

@@ -5,8 +5,7 @@ const json = require("@rollup/plugin-json");
 const peerDepsExternal = require("rollup-plugin-peer-deps-external");
 const resolve = require("@rollup/plugin-node-resolve");
 const commonjs = require("@rollup/plugin-commonjs");
-// const sass = require("rollup-plugin-sass");
-const less = require("rollup-plugin-less");
+const sass = require("rollup-plugin-sass");
 module.exports = {
     input: "src/index.ts",
     output: [
@@ -32,7 +31,7 @@ module.exports = {
         resolve(),
         commonjs(),
         typescript({ useTsconfigDeclarationDir: true }),
-        less({ output: './dist/react-slider-verify.css' }),
+        sass({ output: './dist/react-slider-verify.css' }),
         json(),
         terser()
     ]
