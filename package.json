@@ -28,7 +28,8 @@
     "release": "npm run build && npm publish --access public",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
-    "test:coverage": "umi-test --coverage"
+    "test:coverage": "umi-test --coverage",
+    "prepublishOnly": "npm test && npm run prettier"
   },
   "contributors": [
     "venkatmcajj"
