@@ -1,0 +1,91 @@
+{
+  "name": "react-slider-vertify",
+  "version": "1.0.0",
+  "author": "Venkat",
+  "description": "Puzzle Slider - Slide verification component based on react",
+  "keywords": [
+    "slider-vertify",
+    "react-slider-vertify",
+    "component",
+    "components",
+    "design",
+    "framework",
+    "frontend",
+    "react",
+    "react-component",
+    "ui",
+    "slider",
+    "puzzle-captcha",
+    "captcha",
+    "puzzle"
+  ],
+  "scripts": {
+    "start": "dumi dev",
+    "docs:build": "dumi build",
+    "docs:deploy": "gh-pages -d docs-dist",
+    "build": "father-build",
+    "deploy": "npm run docs:build && npm run docs:deploy",
+    "release": "npm run build && npm publish --access public",
+    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+    "test": "umi-test",
+    "test:coverage": "umi-test --coverage"
+  },
+  "contributors": [
+    "venkatmcajj"
+  ],
+  "files": [
+    "dist",
+    "lib",
+    "es"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "dist/index.d.ts",
+  "browserslist": [
+    "last 2 version",
+    "Firefox ESR",
+    "> 1%",
+    "ie >= 9"
+  ],
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "homepage": "https://github.com/venkatmcajj/react-slider-vertify",
+  "bugs": {
+    "url": "https://github.com/venkatmcajj/react-slider-vertify/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:venkatmcajj/react-slider-vertify.git"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.15.4"
+  },
+  "peerDependencies": {
+    "react": "^16.9.23"
+  },
+  "resolutions": {
+    "@types/react": "^16.9.23"
+  },
+  "devDependencies": {
+    "@umijs/test": "^3.0.5",
+    "dumi": "^1.0.16",
+    "father-build": "^1.17.2",
+    "gh-pages": "^3.0.0",
+    "lint-staged": "^10.0.7",
+    "prettier": "^2.2.1",
+    "yorkie": "^2.0.0"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com"
+  }
+}
