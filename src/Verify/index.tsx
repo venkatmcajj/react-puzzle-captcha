@@ -1,6 +1,5 @@
 import React, { useRef, useState, useEffect, ReactNode, memo } from 'react';
 import { getRandomNumberByRange, sum, square } from './tool';
-import './index.less';
 
 interface verifyType {
   spliced: boolean;
@@ -258,6 +257,7 @@ export default memo(
       setSliderClass('sliderContainer sliderContainer_active');
       trailRef.current.push(moveY);
       onDraw && onDraw(blockLeft);
+      return true;
     };
 
     const handleDragEnd = (e: any) => {
@@ -275,7 +275,7 @@ export default memo(
           typeof onSuccess === 'function' && onSuccess();
         } else {
           setSliderClass('sliderContainer sliderContainer_fail');
-          setTextTip('请再试一次');
+          setTextTip('Please try again');
           reset();
         }
       } else {
@@ -283,6 +283,7 @@ export default memo(
         typeof onFail === 'function' && onFail();
         setTimeout(reset.bind(this), 1000);
       }
+      return true;
     };
 
     useEffect(() => {

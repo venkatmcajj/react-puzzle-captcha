@@ -5,7 +5,8 @@ const json = require("@rollup/plugin-json");
 const peerDepsExternal = require("rollup-plugin-peer-deps-external");
 const resolve = require("@rollup/plugin-node-resolve");
 const commonjs = require("@rollup/plugin-commonjs");
-const sass = require("rollup-plugin-sass");
+// const sass = require("rollup-plugin-sass");
+const less = require("rollup-plugin-less");
 module.exports = {
     input: "src/index.ts",
     output: [
@@ -23,7 +24,7 @@ module.exports = {
             file: pkg.browser,
             format: "umd",
             sourcemap: true,
-            name: 'ReactCountryStateCity'
+            name: 'ReactSliderVerify'
         }
     ],
     plugins: [
@@ -31,7 +32,7 @@ module.exports = {
         resolve(),
         commonjs(),
         typescript({ useTsconfigDeclarationDir: true }),
-        sass({ output: './dist/react-country-state-city.css' }),
+        less({ output: './dist/react-slider-verify.css' }),
         json(),
         terser()
     ]

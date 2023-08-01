@@ -1,1 +1,3 @@
-export { default as verify } from './verify';
+
+import './Verify/index.less';
+export { default as Verify } from './Verify';
