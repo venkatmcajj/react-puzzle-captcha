@@ -2,14 +2,14 @@ import React, { useRef, useState, useEffect, ReactNode, memo } from 'react';
 import { getRandomNumberByRange, sum, square } from './tool';
 import './index.less';
 
-interface VertifyType {
+interface verifyType {
   spliced: boolean;
   verified: boolean; // Simply verify the drag trajectory, when it is zero, it means that there is no fluctuation up and down the Y axis, which may be non-human operation
   left: number; // Move position of the slider
   destX: number; // The target position of the slider
 }
 
-interface IVertifyProp {
+interface IverifyProp {
   /**
    * @description   canvaswidth
    * @default       320
@@ -57,9 +57,9 @@ interface IVertifyProp {
   onDraw?: (l: number) => {};
   /**
    * @description   User's custom validation logic
-   * @default       (arg: VertifyType) => VertifyType
+   * @default       (arg: verifyType) => verifyType
    */
-  onCustomVertify?: (arg: VertifyType) => VertifyType;
+  onCustomverify?: (arg: verifyType) => verifyType;
   /**
    * @description   Verification successful callback
    * @default       ():void => {}
@@ -88,11 +88,11 @@ export default memo(
     refreshIcon = 'https://raw.githubusercontent.com/venkatmcajj/react-slider-verify/master/docs/icon12.png',
     visible = true,
     onDraw,
-    onCustomVertify,
+    onCustomverify,
     onSuccess,
     onFail,
     onRefresh,
-  }: IVertifyProp) => {
+  }: IverifyProp) => {
     const [isLoading, setLoading] = useState(false);
     const [sliderLeft, setSliderLeft] = useState(0);
     const [sliderClass, setSliderClass] = useState('sliderContainer');
@@ -266,8 +266,8 @@ export default memo(
       const eventX = e.clientX || e.changedTouches[0].clientX;
       if (eventX === originXRef.current) return false;
       setSliderClass('sliderContainer');
-      const { spliced, verified } = onCustomVertify
-        ? onCustomVertify(verify())
+      const { spliced, verified } = onCustomverify
+        ? onCustomverify(verify())
         : verify();
       if (spliced) {
         if (verified) {
@@ -293,7 +293,7 @@ export default memo(
 
     return (
       <div
-        className="vertifyWrap"
+        className="verifyWrap"
         style={{
           width: width + 'px',
           margin: '0 auto',

@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 
-interface IVertifyProp {
+interface IverifyProp {
   /**
    * @description   canvas width
    * @default       320
@@ -58,6 +58,6 @@ interface IVertifyProp {
   onRefresh: VoidFunction;
 }
 
-declare const Vertify: React.FC<IVertifyProp>;
+declare const verify: React.FC<IverifyProp>;
 
-export { Vertify };
+export { verify };
