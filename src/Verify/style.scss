@@ -7,6 +7,7 @@
     top: 0;
     cursor: pointer;
     cursor: grab;
+
     &:active {
       cursor: grabbing;
     }
@@ -96,9 +97,11 @@
     transition: background 0.2s linear;
     cursor: pointer;
     cursor: grab;
+
     &:active {
       cursor: grabbing;
     }
+
     &:hover {
       background: #486cd6;
     }
@@ -143,7 +146,7 @@
     width: 32px;
     height: 32px;
     margin-bottom: 10px;
-    background: url(https://raw.githubusercontent.com/venkatmcajj/react-slider-verify/master/docs/icon12.png);
+    background: url(https://raw.githubusercontent.com/venkatmcajj/react-puzzle-captcha/master/docs/icon12.png);
     background-size: 32px;
     animation: loading-icon-rotate 0.8s linear infinite;
   }
@@ -152,6 +155,7 @@
     from {
       transform: rotate(0);
     }
+
     to {
       transform: rotate(360deg);
     }

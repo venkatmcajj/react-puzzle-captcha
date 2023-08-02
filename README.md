@@ -1,27 +1,27 @@
-[![npm downloads](https://img.shields.io/npm/dm/react-slider-verify.svg?style=flat-square)](http://npm-stat.com/charts.html?package=react-slider-verify) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-slider-verify) ![APM](https://img.shields.io/npm/l/react-slider-verify?style=flat-square)
+[![npm downloads](https://img.shields.io/npm/dm/react-puzzle-captcha.svg?style=flat-square)](http://npm-stat.com/charts.html?package=react-puzzle-captcha) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-puzzle-captcha) ![APM](https://img.shields.io/npm/l/react-puzzle-captcha?style=flat-square)
 
-## Hello react-slider-verify!
+## Hello react-puzzle-captcha!
 
 It is a sliding verification code component implemented by react.js, through which we can easily control the entire life cycle of verification (when refreshing, when the verification succeeds, and when the verification fails, the callback), and has certain configuration capabilities.
 
-![demo.gif](https://raw.githubusercontent.com/venkatmcajj/react-slider-verify/master/docs/slider.gif)
+![demo.gif](https://raw.githubusercontent.com/venkatmcajj/react-puzzle-captcha/master/docs/slider.gif)
 
 ## Getting Started
 
 Install dependencies,
 
 ```bash
-$ npm i react-slider-verify
+$ npm i react-puzzle-captcha
 
-$ import 'react-slider-verify/dist/react-slider-verify.css';
+$ import 'react-puzzle-captcha/dist/react-puzzle-captcha.css';
 ```
 
 ## Use
 
 ```tsx
 import React, { useState } from 'react';
-import { Verify } from 'react-slider-verify';
-import 'react-slider-verify/dist/react-slider-verify.css';
+import { Verify } from 'react-puzzle-captcha';
+import 'react-puzzle-captcha/dist/react-puzzle-captcha.css';
 
 export default () => {
   const [visible, setVisible] = useState(false);
@@ -77,7 +77,7 @@ Show your ❤️ and support by giving a ⭐. Any suggestions are welcome! venka
 
 <!-- ## Financial Contributors
 
-Become a financial contributor and help us sustain our community. [Contribute](https://opencollective.com/react-slider-verify) -->
+Become a financial contributor and help us sustain our community. [Contribute](https://opencollective.com/react-puzzle-captcha) -->
 
 ## License
 

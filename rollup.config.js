@@ -23,7 +23,7 @@ module.exports = {
             file: pkg.browser,
             format: "umd",
             sourcemap: true,
-            name: 'ReactSliderVerify'
+            name: 'ReactPuzzleCaptcha'
         }
     ],
     plugins: [
@@ -31,7 +31,7 @@ module.exports = {
         resolve(),
         commonjs(),
         typescript({ useTsconfigDeclarationDir: true }),
-        sass({ output: './dist/react-slider-verify.css' }),
+        sass({ output: './dist/react-puzzle-captcha.css' }),
         json(),
         terser()
     ]

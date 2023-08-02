@@ -73,7 +73,7 @@ exports[`Common render should render correctly without crash 1`] = `
     onClick={[Function]}
     style={
       {
-        "backgroundImage": "url(https://raw.githubusercontent.com/venkatmcajj/react-slider-verify/master/docs/icon12.png)",
+        "backgroundImage": "url(https://raw.githubusercontent.com/venkatmcajj/react-puzzle-captcha/master/docs/icon12.png)",
       }
     }
   />

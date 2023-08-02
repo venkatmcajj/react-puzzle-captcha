@@ -1,11 +1,11 @@
 {
-  "name": "react-slider-verify",
+  "name": "react-puzzle-captcha",
   "version": "1.0.0",
   "author": "Venkatesh",
   "description": "Puzzle Slider - Slide verification component based on react",
   "keywords": [
-    "slider-verify",
-    "react-slider-verify",
+    "puzzle-captcha",
+    "react-puzzle-captcha",
     "component",
     "components",
     "design",
@@ -58,13 +58,13 @@
       "prettier --parser=typescript --write"
     ]
   },
-  "homepage": "https://github.com/venkatmcajj/react-slider-verify",
+  "homepage": "https://github.com/venkatmcajj/react-puzzle-captcha",
   "bugs": {
-    "url": "https://github.com/venkatmcajj/react-slider-verify/issues"
+    "url": "https://github.com/venkatmcajj/react-puzzle-captcha/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com:venkatmcajj/react-slider-verify.git"
+    "url": "git+https://github.com:venkatmcajj/react-puzzle-captcha.git"
   },
   "dependencies": {
     "@babel/runtime": "^7.15.4"

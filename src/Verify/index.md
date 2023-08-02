@@ -2,7 +2,7 @@
 
 ```tsx
 import React from 'react';
-import { Verify } from 'react-slider-verify';
+import { Verify } from 'react-puzzle-captcha';
 
 export default () => {
   return <Verify />;
@@ -13,7 +13,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Verify } from 'react-slider-verify';
+import { Verify } from 'react-puzzle-captcha';
 
 export default () => {
   return <Verify width={330} height={80} />;
@@ -24,7 +24,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Verify } from 'react-slider-verify';
+import { Verify } from 'react-puzzle-captcha';
 
 export default () => {
   return <Verify width={320} height={160} l={28} r={5} />;
@@ -35,7 +35,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Verify } from 'react-slider-verify';
+import { Verify } from 'react-puzzle-captcha';
 
 export default () => {
   return (
@@ -56,7 +56,7 @@ The component exposes `onCustomverify` method, and accepts `verify` object as in
 
 ```tsx
 import React from 'react';
-import { Verify } from 'react-slider-verify';
+import { Verify } from 'react-puzzle-captcha';
 
 export default () => {
   const handleCustomverify = (verify) => {
@@ -84,7 +84,7 @@ export default () => {
 
 ```tsx
 import React, { useState } from 'react';
-import { Verify } from 'react-slider-verify';
+import { Verify } from 'react-puzzle-captcha';
 
 export default () => {
   const [visible, setVisible] = useState(false);

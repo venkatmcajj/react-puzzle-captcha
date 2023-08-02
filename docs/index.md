@@ -1,8 +1,8 @@
-## Hello react-slider-verify!
+## Hello react-puzzle-captcha!
 
 It is a sliding verification code component implemented by react.js, through which we can easily control the entire life cycle of verification (when refreshing, when the verification succeeds, and when the verification fails, the callback), and has certain configuration capabilities.
 
-![demo.gif](https://github.com/venkatmcajj/react-slider-verify/docs/slider.gif)
+![demo.gif](https://github.com/venkatmcajj/react-puzzle-captcha/docs/slider.gif)
 
 ## More Production
 
@@ -18,7 +18,7 @@ Show your ❤️ and support by giving a ⭐. Any suggestions are welcome! venka
 
 <!-- ## Financial Contributors
 
-Become a financial contributor and help us sustain our community. [Contribute](https://opencollective.com/react-slider-verify) -->
+Become a financial contributor and help us sustain our community. [Contribute](https://opencollective.com/react-puzzle-captcha) -->
 
 ## License
 

@@ -82,7 +82,7 @@ const Verify = ({
   r = 9,
   imgUrl,
   text,
-  refreshIcon = 'https://raw.githubusercontent.com/venkatmcajj/react-slider-verify/master/docs/icon12.png',
+  refreshIcon = 'https://raw.githubusercontent.com/venkatmcajj/react-puzzle-captcha/master/docs/icon12.png',
   visible = true,
   onDraw,
   onCustomverify,
