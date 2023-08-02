@@ -12,13 +12,16 @@ Install dependencies,
 
 ```bash
 $ npm i react-slider-verify
+
+$ import 'react-slider-verify/dist/react-slider-verify.css';
 ```
 
 ## Use
 
 ```tsx
 import React, { useState } from 'react';
-import { verify } from 'react-slider-verify';
+import { Verify } from 'react-slider-verify';
+import 'react-slider-verify/dist/react-slider-verify.css';
 
 export default () => {
   const [visible, setVisible] = useState(false);
@@ -47,7 +50,7 @@ export default () => {
       <div onClick={hide} style={style}>
         Hide
       </div>
-      <verify
+      <Verify
         width={320}
         height={160}
         visible={visible}

@@ -58,6 +58,6 @@ interface IverifyProp {
   onRefresh: VoidFunction;
 }
 
-declare const verify: React.FC<IverifyProp>;
+declare const Verify: React.FC<IverifyProp>;
 
-export { verify };
+export { Verify };

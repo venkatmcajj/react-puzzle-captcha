@@ -1,3 +1,4 @@
+import './Verify/style.scss';
+import Verify from './Verify';
 
-import './Verify/index.scss';
-export { default as Verify } from './Verify';
+export { Verify };

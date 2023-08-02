@@ -2,10 +2,10 @@
 
 ```tsx
 import React from 'react';
-import { verify } from 'react-slider-verify';
+import { Verify } from 'react-slider-verify';
 
 export default () => {
-  return <verify />;
+  return <Verify />;
 };
 ```
 
@@ -13,10 +13,10 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { verify } from 'react-slider-verify';
+import { Verify } from 'react-slider-verify';
 
 export default () => {
-  return <verify width={330} height={80} />;
+  return <Verify width={330} height={80} />;
 };
 ```
 
@@ -24,10 +24,10 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { verify } from 'react-slider-verify';
+import { Verify } from 'react-slider-verify';
 
 export default () => {
-  return <verify width={320} height={160} l={28} r={5} />;
+  return <Verify width={320} height={160} l={28} r={5} />;
 };
 ```
 
@@ -35,11 +35,11 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { verify } from 'react-slider-verify';
+import { Verify } from 'react-slider-verify';
 
 export default () => {
   return (
-    <verify
+    <Verify
       width={320}
       height={160}
       onSuccess={() => alert('success')}
@@ -56,7 +56,7 @@ The component exposes `onCustomverify` method, and accepts `verify` object as in
 
 ```tsx
 import React from 'react';
-import { verify } from 'react-slider-verify';
+import { Verify } from 'react-slider-verify';
 
 export default () => {
   const handleCustomverify = (verify) => {
@@ -68,7 +68,7 @@ export default () => {
     };
   };
   return (
-    <verify
+    <Verify
       width={320}
       height={160}
       onCustomverify={handleCustomverify}
@@ -84,7 +84,7 @@ export default () => {
 
 ```tsx
 import React, { useState } from 'react';
-import { verify } from 'react-slider-verify';
+import { Verify } from 'react-slider-verify';
 
 export default () => {
   const [visible, setVisible] = useState(false);
@@ -113,7 +113,7 @@ export default () => {
       <div onClick={hide} style={style}>
         Hide
       </div>
-      <verify
+      <Verify
         width={320}
         height={160}
         visible={visible}
