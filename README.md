@@ -73,6 +73,11 @@ export default () => {
 
 | [react-jquery-data-table](https://github.com/venkatmcajj/react-jquery-data-table)               | With DataTableReact, your ultimate solution for integrating jQuery DataTable-like functionality into React components! and effortlessly enhance your React applications with dynamic and responsive data tables.                                                                                                                  |
 
+## Demo
+
+[A demo is worth a thousand words](https://venkatmcajj.github.io/react-puzzle-captacha/example)
+[Few More Examples](https://venkatmcajj.github.io/react-puzzle-captacha/src/verify/index.md)
+
 ## Contribute
 
 Show your ❤️ and support by giving a ⭐. Any suggestions are welcome! venkatmcajj@gmail.com
