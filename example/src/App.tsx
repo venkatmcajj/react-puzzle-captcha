@@ -38,9 +38,6 @@ export default function App() {
         onRefresh={() => {
           alert('refresh');
         }}
-        imgUrl={
-          'https://www.balmerlawrie.com/img/main_images/inside_banner/travel-banner1.jpg'
-        }
       />
     </div>
   );

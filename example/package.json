@@ -23,7 +23,7 @@
     "react-country-state-city": "^1.0.5",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
-    "react-puzzle-captcha": "file:../react-puzzle-captcha-1.0.0.tgz",
+    "react-puzzle-captcha": "^1.0.1",
     "react-router-dom": "^6.11.1",
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",
