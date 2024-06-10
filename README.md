@@ -71,13 +71,11 @@ export default () => {
 | [react-sidemenubar](https://github.com/venkatmcajj/react-sidemenubar)               | React-sidemenubar allows you to create a responsive sidebar with easy to customize.                                                                                                                   |
 | [react-matrix-tree](https://github.com/venkatmcajj/react-matrix-tree)               | React-matrix-tree allows you to create tree view with different types of matrix.                                                                                                                      |
 
+| [react-jquery-data-table](https://github.com/venkatmcajj/react-jquery-data-table)               | With DataTableReact, your ultimate solution for integrating jQuery DataTable-like functionality into React components! and effortlessly enhance your React applications with dynamic and responsive data tables.                                                                                                                  |
+
 ## Contribute
 
 Show your ❤️ and support by giving a ⭐. Any suggestions are welcome! venkatmcajj@gmail.com
-
-<!-- ## Financial Contributors
-
-Become a financial contributor and help us sustain our community. [Contribute](https://opencollective.com/react-puzzle-captcha) -->
 
 ## License
 
