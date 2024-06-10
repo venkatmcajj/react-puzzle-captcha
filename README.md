@@ -76,7 +76,7 @@ export default () => {
 
 [A demo is worth a thousand words](https://venkatmcajj.github.io/react-puzzle-captacha/example)
 
-[Few More Examples](https://venkatmcajj.github.io/react-puzzle-captacha/src/verify/index.md)
+[Few More Examples](https://github.com/venkatmcajj/react-puzzle-captcha/blob/master/src/Verify/index.md)
 
 ## Contribute
 
